@@ -1,38 +1,31 @@
-baseURL: "https://arkalim.netlify.app"
+baseURL: "/"
 languageCode: en-us
-title: Abdur Rahman
+title: Adnan Samore
 theme: PaperMod
 
 menu:
   main:
-    - identifier: home
-      name: Home
-      url: /
-      weight: 10
-    - identifier: blog
-      name: Blog
-      url: /blog
-      weight: 20
-    - identifier: projects
-      name: Projects
-      url: /projects
-      weight: 30
-    - identifier: experience
-      name: Experience
-      url: /experience
+    # - identifier: blog
+    #   name: Blog
+    #   url: /blog
+    #   weight: 20
+    # - identifier: projects
+    #   name: Projects
+    #   url: /projects
+    #   weight: 30
+    - identifier: Posts
+      name: Posts
+      url: /posts
       weight: 40
     - identifier: search
       name: Search
       url: /search
       weight: 50
-    # - identifier: tags
-    #   name: Tags
-    #   url: /tags
-    #   weight: 60
-    # - identifier: notes
-    #   name: Notes
-    #   url: https://notes.arkalim.org
-    #   weight: 70
+    - identifier: tags
+      name: Tags
+      url: /tags
+      weight: 60
+   
 
 params:
   # theme
@@ -41,6 +34,9 @@ params:
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   hideMeta: false
+  ShowReadingTime: false
+  assets:
+    favicon: "/favicon2.ico"
 
   # for enchanced SEO
   env: production
@@ -48,11 +44,12 @@ params:
   # Home Page
   profileMode:
     enabled: true
-    title: "Abdur Rahman"
-    subtitle: Hi 👋 I'm Abdur, a tech enthusiast who loves solving complex problems. As a Software Developer in the Backend Infrastructure team at [**Clio**](https://www.clio.com), I'm building robust systems to transform the legal experience for all. By evening, you can find me pushing the limits of my strength at the gym or whipping up my favorite recipe in the kitchen. Let's connect and create something awesome together!
-
+    title: "Adnan Samore"
+    subtitle: |
+          Aspiring Software Engineer  
+          Java, Python, React, Unity, data pipelines, SQL, Linux & Open Source
  
-    imageUrl: "home/casual-small-square.jpeg"
+    imageUrl: "home/adnan2.png"
     imageWidth: 220
     imageHeight: 220
     # buttons:
@@ -69,13 +66,13 @@ params:
 
   socialIcons:
     - name: "email"
-      url: "mailto:abdur.rahman.kalim@gmail.com"
+      url: "mailto:adnansamore@gmail.com"
     - name: "linkedin"
-      url: "https://www.linkedin.com/in/abdurrahmankalim"
+      url: "https://www.linkedin.com/in/adnan-adnan-6b332b247/"
     - name: "github"
-      url: "https://github.com/arkalim"
-    - name: "youtube"
-      url: "https://www.youtube.com/c/AbdurRahmanKalim"
+      url: "https://github.com/adnansamore"
+    - name: "twitter"
+      url: "https://x.com/AdnanSamore"
 
   # text search
   fuseOpts:
