@@ -1,5 +1,5 @@
 ---
-title: "Dockerizing a Python API: Run Anywhere in Minutes"
+title: "Dockerizing a Python API"
 dateString: 2025-08-09
 tags: ["python", "docker", "flask", "api", "devops"]
 draft: false
